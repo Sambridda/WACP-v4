@@ -1,23 +1,28 @@
 # WACP v4.0: Automated Water Management System
 
-An intelligent, distributed control system designed for residential water resource management. This project replaces manual monitoring with a semi-automated, closed-loop architecture using custom RF communication.
+An intelligent, distributed control system for residential water management. This project replaces manual monitoring with a closed-loop architecture using custom RF communication and modular hardware.
 
-## 🚀 Key Features
-* **Distributed Sensing:** Real-time water level monitoring using Ultrasonic sensors.
-* **Custom Protocol:** Reliable 433 MHz RF communication using a custom-built packet structure (BareBone-OS Protocol).
-* **Safety First:** Integrated current sensing (ACS712) for dry-run protection and stall detection.
-* **Custom Hardware:** Designed modular PCBs in KiCad for Master and Station nodes.
+## 🛠️ Project Documentation
+Detailed engineering reports are available in the [assets](./assets/) folder:
+* **[Design Overview](./assets/Design%20Overview.pdf)** – Full system architecture and testing results.
+* **[Algorithm Specification](./assets/Algorithm%20Specification.pdf)** – Logic for the BareBone-OS Protocol.
 
-## 🛠️ Tech Stack
-* **Microcontrollers:** Arduino, ESP8266
-* **Communication:** RF 433 MHz (HC-12 / Custom Protocol)
-* **Design Tools:** KiCad (PCB), SolidWorks (CAD), FluidSIM
-* **Programming:** C++ (Embedded)
+## 🔌 Hardware Design (KiCad)
+The system uses custom-designed 2-layer PCBs for distributed control nodes.
 
-## 📂 Deep Dive Documentation
-I have documented the full engineering process in detail:
-* [Design Overview](./Design%20Overview.pdf) - Includes system architecture, PCB layouts, and testing results.
-* [Algorithm Specification](./Algorithm%20Specification.pdf) - Detailed logic for the custom BareBone-OS communication protocol.
+### Master Control Unit
+| 2D Layout | 3D Render |
+| :--- | :--- |
+| ![Master 2D](./assets/Master_Editor.jpg) | ![Master 3D](./assets/Master_Render.jpg) |
+*View the [Master Schematic PDF](./assets/Master_Schematic.pdf)*
 
-## 📈 System Performance
-The system features safety interlocks and "Fail-Safe" logic to prevent manual errors and hardware damage, as validated in my experimental testing.
+### Station Nodes (Sump & Roof)
+| 2D Layout | 3D Render |
+| :--- | :--- |
+| ![Station 2D](./assets/Station_Editor.jpg) | ![Station 3D](./assets/Station_Render.jpg) |
+*View the [Station Schematic PDF](./assets/Station_Schematic.pdf)*
+
+## 🛰️ Technical Features
+* **Custom Protocol:** Reliable 433 MHz RF communication with a custom packet structure.
+* **Safety Logic:** Dry-run protection via ACS712 current sensing and ultrasonic feedback.
+* **Modular Design:** Independent power regulation and signal isolation on-board.
