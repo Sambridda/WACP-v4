@@ -7,6 +7,13 @@ Detailed engineering reports are available in the [assets](./assets/) folder:
 * **[Design Overview](./assets/Design%20Overview.pdf)** – Full system architecture and testing procedures.
 * **[Algorithm Specification](./assets/Algorithm%20Specification.pdf)** – Logic for the BareBone-OS Protocol.
 
+## 🧠 Design Philosophy: Pre-emptive Problem Solving
+A core objective of this project was to identify and mitigate hardware and logic failures during the **conceptual phase**, rather than the testing phase. By utilizing a "Design for Reliability" approach, I addressed the following before soldering a single component:
+
+* **RF Signal Integrity:** Anticipated 433MHz interference and designed a custom XOR-checksum protocol (BareBone-OS) to ensure data validity.
+* **Hardware Safety:** Identified the risk of pump "dry-running" and integrated ACS712 current sensing into the initial PCB schematic to create a hardware-level safety interlock.
+* **System Scalability:** Designed the Master-Station architecture to be modular, allowing for additional nodes without re-designing the core logic.
+
 ## 🔌 Hardware Design (KiCad)
 
 ### 🧠 Master Control Unit
