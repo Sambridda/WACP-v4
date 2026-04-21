@@ -8,19 +8,25 @@ Detailed engineering reports are available in the [assets](./assets/) folder:
 * **[Algorithm Specification](./assets/Algorithm%20Specification.pdf)** – Logic for the BareBone-OS Protocol.
 
 ## 🔌 Hardware Design (KiCad)
-The system uses custom-designed 2-layer PCBs for distributed control nodes.
 
-### Master Control Unit
-| 2D Layout | 3D Render |
-| :--- | :--- |
-| ![Master 2D](./assets/Master_Editor.jpg) | ![Master 3D](./assets/Master_Render.jpg) |
-*View the [Master Schematic PDF](./assets/Master_Schematic.pdf)*
+### 🧠 Master Control Unit
+| Schematic (PDF) | 2D Layout | 3D Render |
+| :--- | :--- | :--- |
+| [Download PDF](./assets/Master_Schematic.pdf) | ![Master 2D](./assets/Master%20Editor%20Image.jpg) | ![Master 3D](./assets/Master%20Render%20Image.jpg) |
 
-### Station Nodes (Sump & Roof)
-| 2D Layout | 3D Render |
-| :--- | :--- |
-| ![Station 2D](./assets/Station_Editor.jpg) | ![Station 3D](./assets/Station_Render.jpg) |
-*View the [Station Schematic PDF](./assets/Station_Schematic.pdf)*
+---
+
+### 🕳️ Sump Station (SC1)
+| Schematic (PDF) | 2D Layout | 3D Render |
+| :--- | :--- | :--- |
+| [Download PDF](./assets/Sump%20Station%20Schematic.pdf) | ![Sump 2D](./assets/Sump%20Station%20Editor%20Image.jpg) | ![Sump 3D](./assets/Sump%20Station%20Render%20Image.jpg) |
+
+---
+
+### 🏠 Roof Station (SC2)
+| Schematic (PDF) | 2D Layout | 3D Render |
+| :--- | :--- | :--- |
+| [Download PDF](./assets/Roof%20Station%20Schematic.pdf) | ![Roof 2D](./assets/Roof%20Station%20Editor%20Image.jpg) | ![Roof 3D](./assets/Roof%20Station%20Render%20Image.jpg) |
 
 ## 🛰️ Technical Features
 * **Custom Protocol:** Reliable 433 MHz RF communication with a custom packet structure.
