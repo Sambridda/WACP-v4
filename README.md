@@ -4,7 +4,7 @@ An intelligent, distributed control system for residential water management. Thi
 
 ## 🛠️ Project Documentation
 Detailed engineering reports are available in the [assets](./assets/) folder:
-* **[Design Overview](./assets/Design%20Overview.pdf)** – Full system architecture and testing results.
+* **[Design Overview](./assets/Design%20Overview.pdf)** – Full system architecture and testing procedures.
 * **[Algorithm Specification](./assets/Algorithm%20Specification.pdf)** – Logic for the BareBone-OS Protocol.
 
 ## 🔌 Hardware Design (KiCad)
