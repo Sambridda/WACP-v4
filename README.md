@@ -2,6 +2,15 @@
 
 An intelligent, distributed control system for residential water management. This project replaces manual monitoring with a closed-loop architecture using custom RF communication and modular hardware.
 
+## 🚀 Quick Overview
+- Distributed embedded system for automated water management  
+- Custom 433 MHz RF communication protocol  
+- Fault detection (dry run, overload) using sensors  
+- Non-blocking firmware (no delay-based control)  
+- Custom-designed PCBs (KiCad)  
+
+👉 Goal: Reliable, real-world automation system for residential use
+
 ## 🛠️ Project Documentation
 Detailed engineering reports are available in the [assets](./assets/) folder:
 * **[Design Overview](./assets/Design%20Overview.pdf)** – Full system architecture and testing procedures.
