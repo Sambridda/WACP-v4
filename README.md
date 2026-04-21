@@ -12,21 +12,21 @@ Detailed engineering reports are available in the [assets](./assets/) folder:
 ### 🧠 Master Control Unit
 | Schematic (PDF) | 2D Layout | 3D Render |
 | :--- | :--- | :--- |
-| [Download PDF](./assets/Master_Schematic.pdf) | ![Master 2D](./assets/Master%20Editor%20Image.jpg) | ![Master 3D](./assets/Master%20Render%20Image.jpg) |
+| [Download PDF](./assets/CONTROL%20PCB.pdf) | ![Master 2D](./assets/Control%20editor.jpg) | ![Master 3D](./assets/Control%20render.jpg) |
 
 ---
 
 ### 🕳️ Sump Station (SC1)
 | Schematic (PDF) | 2D Layout | 3D Render |
 | :--- | :--- | :--- |
-| [Download PDF](./assets/Sump%20Station%20Schematic.pdf) | ![Sump 2D](./assets/Sump%20Station%20Editor%20Image.jpg) | ![Sump 3D](./assets/Sump%20Station%20Render%20Image.jpg) |
+| [Download PDF](./assets/SC2%20PCB.pdf) | ![Sump 2D](./assets/SC2%20editor.jpg) | ![Sump 3D](./assets/SC2%20render.jpg) |
 
 ---
 
 ### 🏠 Roof Station (SC2)
 | Schematic (PDF) | 2D Layout | 3D Render |
 | :--- | :--- | :--- |
-| [Download PDF](./assets/Roof%20Station%20Schematic.pdf) | ![Roof 2D](./assets/Roof%20Station%20Editor%20Image.jpg) | ![Roof 3D](./assets/Roof%20Station%20Render%20Image.jpg) |
+| [Download PDF](./assets/SC1%20PCB.pdf) | ![Roof 2D](./assets/SC1%20editor.jpg) | ![Roof 3D](./assets/SC1%20render.jpg) |
 
 ## 🛰️ Technical Features
 * **Custom Protocol:** Reliable 433 MHz RF communication with a custom packet structure.
