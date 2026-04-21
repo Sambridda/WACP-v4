@@ -32,3 +32,10 @@ Detailed engineering reports are available in the [assets](./assets/) folder:
 * **Custom Protocol:** Reliable 433 MHz RF communication with a custom packet structure.
 * **Safety Logic:** Dry-run protection via ACS712 current sensing and ultrasonic feedback.
 * **Modular Design:** Independent power regulation and signal isolation on-board.
+
+## 🚧 Current Build Status
+* [x] System Architecture & PDF Documentation
+* [x] KiCad PCB Design (Master, SC1, SC2)
+* [ ] **Physical Prototyping (In Progress):**
+    * Currently assembling SC1 (Sump Station) on high-density perfboard.
+    * Validating power regulation and RF communication range.
